@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.background{
+    height:100vh;
+    width: 100vw;
+    z-index: -2;
+}
+.only{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 30vh;
+    left: 30vw;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    background-image: linear-gradient(90deg, rgba(5, 12, 156,0.3) ,rgba(167, 230, 255,0.3) );
+    
+
+    font-size: 40px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(5, 12, 156);
+}
